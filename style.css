@@ -1,0 +1,156 @@
+
+header{
+    width: 100%;
+    height: 65vh;
+
+}
+.header_div1{
+    width: 100%;
+    height: 10vh;
+ 
+    display: inline-flex;
+    justify-content: space-between;
+    border-bottom: 0.5px solid rgb(217, 207, 207);
+}
+.header_div11{
+    width: 18%;
+    height: 10vh;
+   margin-left: 10px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_div12{
+    width: 35%;
+    height: 10vh;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -150px;
+}
+.header_div13{
+    width: 10%;
+    height: 10vh;
+    margin-left: -10px;
+    display: inline-flex;
+    justify-content: end;
+    align-items: center;
+}
+.shape_div{
+    width: 70%;
+    height: 5vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 11px;
+    border: 1px solid black;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.shape_div>input{
+    width: 90%;
+    border: none;
+    outline: none;
+    margin-right: 5px;
+}
+.shape_div>svg{
+    margin-left: 5px;
+}
+#div11_btn{
+    width: 120px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #006aff;
+    border: none;
+    color: white;
+}
+#div12_btn{
+    border: none;
+    background-color: white;
+}
+#div13_btn{
+    width: 80px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #006aff;
+    border: none;
+    color: white;
+}
+.header_div13>a{
+    margin-right: 10px;
+}
+.header_div2{
+    width: 100%;
+    height: 55vh;
+    
+}
+#carouselExampleInterval{
+    height: 75vh !important;
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.carousel-inner{
+    width: 99%;
+    height: 65vh !important;
+    border-radius: 10px;
+}
+
+
+
+
+main{
+    width: 100%;
+    height: 100vh;
+    background-color: #006aff;
+}
+.main_div1{
+    width: 100%;
+    height: 50vh;
+    background-color: aquamarine;
+    display: inline-flex;
+    justify-content: space-around;
+}
+.main_div11{
+    width: 23%;
+    height: 50vh;
+    background-color: crimson;
+}
+.div_img{
+    border-radius: 10px;
+    width: 100%;
+    height: 25vh;
+    background-image: url(https://eduon-backend.uz/media/course/covers/7b5338c58d0247b6acc57d2d26024d6b.png);
+    background-size: cover;
+    display: inline-flex;
+    align-items: end;
+    justify-content: end;
+
+}
+#img_btn{
+   font-size: 9pt;
+   border: none;
+   border-radius: 3px;
+   color: white;
+   background-color: red;
+}
+.div_title{
+  width: 100%;
+  height: 6vh;
+  background-color: rgb(191, 16, 197);
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#title_btn{
+    width: 60px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #006aff;
+}
+.div_img1{
+    width: 100%;
+    height: 25vh;
+    background-image: url(https://eduon-backend.uz/media/course/covers/b981670addf74e408531ebe8e4f00e01.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
